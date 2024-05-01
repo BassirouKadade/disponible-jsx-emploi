@@ -1,0 +1,10 @@
+.reservation {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+}
+.reservation span:nth-child(1){
+      font-size: 40px;
+}

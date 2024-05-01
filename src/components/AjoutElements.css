@@ -1,0 +1,145 @@
+.parentSalle {
+    width: 95%;
+    height: auto;
+   
+    margin: 15px auto;
+    padding: 15px;
+    min-height: 360px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+  }
+  
+  .salle {
+    margin-bottom: 33px;
+    text-align: left;
+  }
+  
+  .salle h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 510;
+    color: #000000;
+  }
+  
+  .salleEnfant {
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: space-between;
+  }
+  
+  .info {
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 7px;
+    color: #000000;
+    text-align: left;
+    width: 100%;
+  }
+  
+  
+  .inputClass{
+    transition: 0.3s;
+  }
+  .inputClass:hover{
+   border-color:rgba(29, 120, 120, 0.843);
+  }
+  
+  
+  .buttonM {
+   display: flex;
+   margin: 13px 0;
+   justify-content: flex-start;
+  }
+  
+  .buttonMbut {
+   padding: 8px 35px;
+   background-color: rgba(29, 120, 120, 0.843);;
+   color: #ffffff;
+   border: none;
+   cursor: pointer;
+   font-size: 1em;
+   border-radius: 6px;
+  
+   transition: 0.2s;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 150px;
+   height: 40px;
+  }
+  
+  .buttonMbut:hover {
+   background-color: rgb(27, 106, 106);;
+  }
+  
+  #salleText{
+       font-size: 30px;
+       font-weight: 500;
+       text-shadow: 2px 1px 1px rgb(0,0,0,0.4);
+       font-family: 'Architects Daughter', cursive;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Macondo', cursive;
+  }
+
+  .AjouterAuyeModule{
+    text-decoration: none; /* Supprime la soulignement des liens */
+    color:rgba(29, 120, 120, 0.966);
+    border-radius: 4px;
+    padding: 5px 4px;
+    display: block;
+    position: relative;
+    background-color:rgba(29, 120, 120, 0.046);
+   
+  }
+  
+  .AjouterAuyeModule:hover{
+    background-color: #0b12181e; /* Couleur de fond au survol des liens */
+  }
+
+  textarea{
+     resize: none;
+  }
+  .hoverNone{
+    text-decoration: none; /* Supprime la soulignement des liens */
+    color:rgba(29, 120, 120, 0.966);
+    border-radius: 4px;
+    padding: 5px 4px;
+    display: block;
+    position: relative;
+  
+       background-color: transparent;
+      
+  }
+  .hoverNone:hover{
+    color:rgba(29, 120, 120, 1);
+  }
+
+  .menuQuiRecherche{
+    position: absolute;
+    top: 2%;
+    width: 5%;
+    padding: 8px 13px;
+    left: 93%;
+    font-size: 19px;
+    display: flex;
+    color:rgba(29, 120, 120, 0.843);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px rgba(29, 120, 120, 0.843);
+    
+}
+.menuQuiRecherche:hover{
+  color: red;   box-shadow: 0 0 2px red;
+}
+  

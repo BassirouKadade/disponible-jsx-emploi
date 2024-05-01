@@ -1,0 +1,341 @@
+// if(taille.length===1){
+  //     switch (time) {
+  //       case 8:
+  //         return (
+  //           <>
+            
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(8,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+  //           </>
+  //         );
+  //       case 9:
+  //         return (
+  //           <>
+  //             <td style={{border:"none"}}></td>
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(9,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+  //           </>
+  //         );
+  //       case 10:
+  //         return (
+  //           <>
+              
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+              
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(10,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+              
+  //           </>
+  //         );
+  //       case 11:
+  //         return (
+  //           <>
+  //              <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(11,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+  //           </>
+  //         );
+  //       case 12:
+  //         return (
+  //           <>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+              
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(12,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+  //           </>
+  //         );
+  //       case 13:
+  //         return (
+  //           <>
+  //             <td style={{border:"none"}} ></td>
+  //             <td style={{border:"none"}}></td>
+       
+  //             <td style={{border:"none"}} ></td>
+  //             <td style={{border:"none"}} ></td>
+  //             <td style={{border:"none"}} ></td>
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(13,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+            
+  //           </>
+  //         );
+  //       case 14:
+  //         return (
+  //           <>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(14,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+  //           </>
+  //         );
+  //       case 15:
+  //         return (
+  //           <>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+             
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(15,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+  //           </>
+  //         );
+  //       case 16:
+  //         return (
+  //           <>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+             
+  //             <td style={{border:"none"}}></td>
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(16,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+             
+  //           </>
+  //         );
+  //       case 17:
+  //         return (
+  //           <>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+             
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(17,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+  //           </>
+  //         );
+  //       case 18:
+  //         return (
+  //           <>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+             
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td style={{border:"none"}}></td>
+  //             <td  style={{ position: 'relative' }} colSpan={colSpanTd(18,fins)}>
+  //             <span
+  //         style={{
+  //           fontSize: '12px',
+  //           fontWeight: '600',
+  //           color: '#000000',
+  //           position: 'absolute',
+  //           top: '24%',
+  //           left: '42%',
+  //           display: 'flex',
+  //           flexDirection: 'column',
+  //           alignItems: 'center',
+  //           justifyContent: 'center',
+  //         }}
+  //       >
+  //         <span>{`${element.nom.toUpperCase()} ${element.prenom.toUpperCase()}`}</span>
+  //         <span>{`${element.nomSalle.toUpperCase()}`}</span>
+  //       </span>
+  //             </td>
+              
+  //           </>
+  //         );
+  //       default:
+  //         return null;
+  //     }
+     
+     
+
+  // }else if(taille.length===2){  

@@ -1,0 +1,201 @@
+/* Style pour la classe .articleListes */
+.sectionListe{
+    background-color: #ffffff;
+    width: 100%;
+   position: relative;
+    height:   620px;    
+}
+
+.sectionListe2{
+  background-color: #ffffff;
+  width: 100%;
+ position: absolute;
+ left: 0;
+  height:   620px;
+}
+.articleListes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    margin-top: 20px;
+    height: 34px;
+  }
+  
+  /* Style pour le premier enfant de .articleListes */
+  .articleListes .div1 {
+    width: 20%;
+    background-color: rebeccapurple;
+  }
+  
+  /* Style pour la classe .select à l'intérieur du premier enfant de .articleListes */
+  .articleListes .div1 .select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 1px 6px;
+    outline: none;
+    box-shadow: 0 0 2px rgb(0,0,0,0.3);
+  }
+  
+  .div2{
+       width:40%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 0 8px;
+       box-shadow: 0 0 2px rgb(0,0,0,0.3);
+  }
+
+  .div2 .input2{
+    width: 96%;
+    height: 100%;
+    border: none;
+    margin-left: 3px;
+    padding: 0 6px;
+    outline: none;
+  }
+  
+  /* Style pour la classe .sectionListe */
+  .sectionListe {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  /* Style pour l'en-tête du tableau (.tables thead tr) */
+  .tables thead tr {
+    border: none;
+    height: 40px;
+    background-color: rgba(29, 120, 120, 0.2); 
+  }
+  
+  /* Style pour chaque ligne du tableau (.tables tr) */
+  .tables tr {
+    height: 36px;
+    border-bottom: 1px solid #000000 ;
+    padding: 0 6px;
+  }
+  .tables th:nth-child(1),.tables tbody th:nth-child(1){
+    padding-left: 3px;
+  }
+  .tables td,.tables th{
+     text-align: left;
+  }
+  /* Style pour le bouton de modification */
+  .button-modifier {
+    background-color: transparent;
+    color: rgba(20, 20, 235, 0.600);
+    border: none;
+    margin: 0 10px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  .button-modifier:hover{
+     color: blue;
+  }
+  textarea:hover{
+      border: 1px solid rgba(29, 120, 120,1); 
+  }
+
+  /* Style pour le bouton de suppression */
+  .button-supprimer {
+    background-color: transparent;
+    color: rgba(255, 0, 0, 0.600);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Style au survol du bouton de suppression */
+  .supStyle:hover {
+    color: rgba(255, 0, 0, 0.538);
+    transition: 0.2s;
+  }
+  .supStyle:hover {
+    color: red;
+  }
+  
+  .actualiser{
+       border: none;
+       background-color: transparent;
+       z-index: 1000000000000;
+       padding: 5px 7px;
+  }
+
+.suivant{
+   position: absolute;
+   top: 94%;
+   left: 0;
+   font-size: 14px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.suivant .pages{
+  background-color: transparent;
+    border: none;
+    padding: 3px 9px;
+    margin: 1px;
+}
+.previous,.next{
+  background-color: rgba(29, 120, 120, 0.281) ;
+    color: #ffffff;
+    padding: 3px 9px;
+}
+.currentElement{
+  background-color: rgb(0,0,0,0.1);
+}
+.next{
+  margin-left: 4px;
+}
+.previous{
+    margin-right: 4px;
+}
+.notFound{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-style: italic;
+     flex-direction: column;
+}
+
+.schedules::after {
+  content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color:rgb(0,0,0,0.8); 
+   z-index: 10000;
+}
+
+.schedules2::after {
+  content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color:rgb(0,0,0,0.8); 
+   z-index: 1;
+}
+.cancel{
+  position: absolute;
+  top: 4px;
+  left: 95%;
+  padding: 3px 7px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.cancel:hover{
+    background-color: rgb(0,0,0,0.2);
+   
+}
